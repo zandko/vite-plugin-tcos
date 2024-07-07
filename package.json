@@ -1,0 +1,44 @@
+{
+  "name": "vite-plugin-tcos",
+  "version": "0.0.1",
+  "description": "A Vite plugin for integrating with COS (Cloud Object Storage).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "vite",
+    "plugin",
+    "cos",
+    "cloud",
+    "object",
+    "storage"
+  ],
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cos-nodejs-sdk-v5": "^2.13.4",
+    "glob": "^8.1.0",
+    "lodash": "^4.17.21",
+    "vite": "^5.2.10",
+    "node-fetch": "2.7.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/node": "12.20.4"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Zane",
+    "email": "zandko@126.com",
+    "url": "https://github.com/zandko"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/zandko/vite-plugin-tcos.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zandko/vite-plugin-tcos.git"
+  }
+}
