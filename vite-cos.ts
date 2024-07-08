@@ -131,11 +131,6 @@ export class HubCOS {
     compilation?: any,
     cb?: Function
   ) {
-    this.client = new COS({
-      SecretId: '',
-      SecretKey: ''
-    });
-
     const files = this.pickupAssetsFile(sourceFiles);
     if (!files) {
       warn(
