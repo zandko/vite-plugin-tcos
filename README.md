@@ -46,6 +46,7 @@ export default {
 | project     | string  | ''               | 项目名称                       |
 | retry       | number  | 3                | 上传失败时的重试次数           |
 | existCheck  | boolean | true             | 是否检查文件是否已存在         |
+| removeMode  | boolean | false             | 是否删除已上传文件         |
 
 ## 示例
 
