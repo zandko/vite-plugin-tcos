@@ -56,7 +56,7 @@ import { ViteCOS } from 'vite-plugin-tcos';
 export default {
   plugins: [
     ViteCOS({
-      provider: {
+      cosOptions: {
         SecretId: 'my-secret-id',
         SecretKey: 'my-secret-key',
         Bucket: 'my-bucket',
